@@ -25,7 +25,7 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-    MongoCon(`mongodb+srv://Rajan:Rajan099r@rajanapi.tc4qy7c.mongodb.net/UrlShortner?retryWrites=true&w=majority`)
+    MongoCon(`Your mongo db Url`)
         .then(() => console.log("MongoDb Connected"))
         .catch((err) => console.log(err))
     console.log(`Server started on ${PORT}`);
