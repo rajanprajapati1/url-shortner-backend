@@ -8,7 +8,7 @@ const UserRoutes = require('./routes/user')
 const cookieParser = require('cookie-parser');
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://65f0404739a18cb28db93f92--jade-otter-068067.netlify.app",
     methods: ["GET", "POST"] ,
     credentials  :true
 }));
